@@ -85,7 +85,6 @@ button {
   display: flex;
 }
 .site_top .logo_top .site-header_logo {
-  height: 30px;
   margin-top: 60px;
 }
 .site_top .logo_top .logo:hover {
@@ -93,7 +92,6 @@ button {
 }
 .site_top .logo_top .tingla_logo {
   width: 130px;
-  height: 30px;
   padding: 0;
 }
 .site_top .shakl_one {
@@ -157,7 +155,6 @@ button {
 @media (max-width: 1270px) {
   .tingla_logo {
     width: 120px;
-    height: 25px;
     margin-left: 30px;
   }
   .text-top {
@@ -165,9 +162,6 @@ button {
   }
   .text-top .text-top_h {
     font-size: 70px;
-  }
-  .text-top .text-top_yozuv {
-    width: 100%;
   }
   .text-top_background {
     padding: 0;
@@ -182,20 +176,15 @@ button {
   }
   .tingla_logo {
     width: 113px;
-    height: 34px;
   }
   .text-top {
     display: flex;
     flex-direction: column-reverse;
   }
-  .text-top .text-top_yozuv {
-    width: 500px;
-    border: 1px solid #000;
-  }
   .text-top .text-top_h {
     font-size: 36px;
     line-height: 42px;
-    margin-top: 11px;
+    margin-top: 15px;
   }
   .text-top .text-top_p {
     font-size: 18px;
@@ -203,7 +192,8 @@ button {
     margin-top: 16px;
   }
   .text-top .text-top_background {
-    width: 400px;
+    width: 550px;
+    margin-top: 30px;
   }
   .text-top .yukla-btn {
     margin-top: 28px;
@@ -212,7 +202,7 @@ button {
     font-size: 18px;
   }
   .shakl-position .shakl_one {
-    margin-left: 545px;
+    margin-left: 570px;
     margin-top: 200px;
     width: 77.75px;
     height: 77.75px;
@@ -221,7 +211,7 @@ button {
   }
   .shakl-position_two .shakl_two {
     margin-top: -200px;
-    left: 14px;
+    left: 20px;
     width: 58px;
     height: 58px;
   }
