@@ -115,18 +115,20 @@ button {
   margin: 0;
   padding: 0;
   font-weight: 700;
-  font-size: 80px;
+  font-size: 70px;
   line-height: 95px;
   letter-spacing: -2%;
 }
 .text-top .text-top_p {
   margin: 0;
+  margin-top: 24px;
   padding: 0;
   font-size: 24px;
   font-weight: 400;
   line-height: 36px;
 }
 .text-top .yukla-btn {
+  margin-top: 69px;
   width: 181px;
   height: 60px;
   border-radius: 8px;
