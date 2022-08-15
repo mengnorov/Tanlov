@@ -1,0 +1,148 @@
+/* Fonts */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src:url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'), 
+          url('../fonts/roboto-v30-latin-regular.woff') format('woff'); 
+  }
+  @font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src:url('../fonts/roboto-v30-latin-italic.woff2') format('woff2'), 
+         url('../fonts/roboto-v30-latin-italic.woff') format('woff'); 
+  }
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src:url('../fonts/roboto-v30-latin-500.woff2') format('woff2'), 
+         url('../fonts/roboto-v30-latin-500.woff') format('woff'); 
+  }
+  @font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 500;
+    font-display: swap;
+    src:url('../fonts/roboto-v30-latin-500italic.woff2') format('woff2'), 
+         url('../fonts/roboto-v30-latin-500italic.woff') format('woff'); 
+  }
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src:url('../fonts/roboto-v30-latin-700.woff2') format('woff2'),
+          url('../fonts/roboto-v30-latin-700.woff') format('woff'); 
+  }
+
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-size: 15px;
+    line-height: 18px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+*:focus{
+    outline: 0;
+    box-shadow: 0 0 0 4px rgba(41, 80, 147, 0.4)
+}
+button{
+    cursor: pointer;
+}
+// CONTAINER
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.left-margin{
+    margin-left: 165px;
+    
+}
+.site_top{
+    max-width: 1440px;
+    margin: 0 auto;
+    .logo_top{
+        display: flex;
+        .site-header_logo{
+            height: 30px;
+            margin-top: 60px;
+        }
+        .logo:hover{
+            transform: scale(1.025);
+        }
+        .tingla_logo{
+            width: 130px;
+            height: 30px;
+            padding: 0;
+        }
+    }
+    .shakl_one{
+        margin-left: 670px;
+        top:0;
+        position: absolute;
+    }
+}
+.text-top{
+    display: flex;
+    align-items:center;
+    .text-top_yozuv{
+        width: 650px;
+        display: flex;
+        flex-direction: column;
+    }
+    .text-top_h{
+        margin: 0;
+        padding: 0;
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 95px;
+        letter-spacing: -2%;
+    }
+    .text-top_p{
+        margin: 0;
+        padding: 0;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 36px;
+    }
+    .yukla-btn{
+        width: 181px;
+        height: 60px;
+        border-radius:8px;
+        background-color:#0F0F54;
+        color:#fff;
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: 500;
+    }
+    .text-top_background{
+        width: 514px;
+        height: 729px;
+        background-image:url(../img/1phone.png);
+        background-position:center;
+        // background-size:100%;
+        background-repeat:no-repeat;
+        background-size:cover;
+        padding: 170px;
+        margin-left: 7px;
+    }
+}
