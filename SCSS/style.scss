@@ -100,6 +100,11 @@ button{
         top:0;
         position: absolute;
     }
+    .shakl_two{
+        position: absolute;
+        left: 78px;
+        top: 717px;
+    }
 }
 .text-top{
     display: flex;
@@ -141,10 +146,87 @@ button{
         height: 729px;
         background-image:url(../img/1phone.png);
         background-position:center;
-        // background-size:100%;
         background-repeat:no-repeat;
         background-size:cover;
-        padding: 170px;
         margin-left: 7px;
+    }
+}
+
+
+
+/* MEDIA QUERIYES */
+@media(max-width:1270px){
+    .tingla_logo{
+        width: 120px;
+        height: 25px;
+        margin-left: 30px;
+    }
+    .text-top{
+       margin-left: 30px; 
+       .text-top_h{
+        font-size: 70px;
+       }
+       .text-top_yozuv{
+        width: 100%;
+       }
+    }
+    .text-top_background{
+        padding: 0;
+        width: 464px;
+        height: 674px;
+    }
+}
+/*750px mobilni*/
+@media(max-width:750px){
+    .site-header_logo{
+        margin-top: 37px;
+    }
+    .tingla_logo{
+        width: 113px;
+        height: 34px;
+    }
+    .text-top{
+        display: flex;
+        flex-direction: column-reverse;
+        .text-top_yozuv{
+            width: 500px;
+            border: 1px solid #000;
+        }
+        .text-top_h{
+            font-size: 36px;
+            line-height: 42px;
+            margin-top: 11px;
+           }
+        .text-top_p{
+            font-size: 18px;
+            line-height: 32px;
+            margin-top: 16px;
+        }
+        .text-top_background{
+            width: 400px;
+        }
+        .yukla-btn{
+            margin-top: 28px;
+            width: 151px;
+            height: 57px;
+            font-size: 18px;
+        }
+    }
+    .shakl-position{
+        .shakl_one{
+            margin-left: 545px;
+            margin-top: 200px;
+            width: 77.75px;
+            height: 77.75px;
+            object-fit: cover;
+        }
+    }
+    .shakl-position_two{
+        .shakl_two{
+            margin-top: -200px;
+            left: 14px;
+            width: 58px;
+            height: 58px;
+        }
     }
 }
