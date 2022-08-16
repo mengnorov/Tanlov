@@ -161,6 +161,8 @@ button {
   margin: 0 auto;
   margin-top: 142px;
   margin-bottom: 10px;
+  border: radius 20px;
+  padding: 0;
 }
 .abaut-bg .play-icon {
   display: flex;
@@ -188,6 +190,50 @@ button {
   border-radius: 20px;
   width: 1110px;
   height: 500px;
+}
+
+/*ABAUT BLUE*/
+.abaut-blue {
+  background-color: #0F0F54;
+  width: 1100px;
+  padding: 200px 0;
+  margin-top: 350px;
+  margin: 0 auto;
+  border-radius: 20px;
+  color: #fff;
+  position: relative;
+}
+.abaut-blue .bg-blue {
+  display: flex;
+}
+.abaut-blue .bg-blue .bg-blue_text {
+  width: 540px;
+  height: 228px;
+}
+.abaut-blue .bg-blue .abaut-h {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+  margin: 0;
+}
+.abaut-blue .bg-blue .abaut-p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 34px;
+}
+.abaut-blue .abaut-blue_phone {
+  position: absolute;
+  margin-left: 588px;
+  width: 495px;
+  height: 773px;
+  left: px;
+  top: 146px;
+}
+.abaut-blue .abaut-blue_img_phone {
+  width: 495px;
+  height: 773px;
+  left: 725px;
+  top: 1616px;
 }
 
 /* MEDIA QUERIYES */
